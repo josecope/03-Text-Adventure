@@ -51,7 +51,7 @@ def update(selection,game,current,inventory):
     print("\nYou can't go that way!")
     return current
 
-
+ 
 # Helper functions
 
 def printExits(game,current):

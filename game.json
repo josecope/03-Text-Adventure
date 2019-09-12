@@ -44,34 +44,34 @@
     "rooms": {
       "START": {
         "name": "Starting place",
-        "desc": "This is the place to start!",
+        "desc": "This is the place to start! \nInput any direction to begin.",
         "exits": [
           {
             "verb": "NORTH",
-            "target": "LOC2",
+            "target": "Strange Room",
             "condition": ""
           },
           {
             "verb": "SOUTH",
-            "target": "LOC32",
+            "target": "Strange Room",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "Strange Room",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "Strange Room",
             "condition": ""
           }
         ],
         "inventory": []
       },
-      "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+      "Strange Room": {
+        "name": "Strange Room",
+        "desc": "You find yourself in an unfamiliar room. \nTo your North, there is an open door leading out into a long hallway.",
         "exits": [
         ],
         "inventory": []
