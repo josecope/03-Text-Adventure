@@ -42,6 +42,33 @@
       }
     ],
     "rooms": {
+      "N Mountain Base": {
+        "name": "North Mountain Base",
+        "desc": "Before you lies a group of colossal mountains that reach far into the sky.\nLooking to the East toward the mountains, you see a lit lantern resting on a small pedastal before a set of stairs that winds up into the rocks.\nTo the North, just past the end of the mountains, you can see the Ocean.\nTo the South, you can see another lantern.\nLastly, there is a large dusty trail leading out of the mountains and to the West.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Ocean",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Mountain Base",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "N Mountain Path",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Dried Up River",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
       "Beach": {
         "name": "Beach",
         "desc": "You come down the hills of sand onto a beach that stretches North for miles.  You even think you can see a settlement farther down the shore.  Even though you can tell it has receded, the ocean still glitters far out to the East where it meets the horizon.\nTo the South, there is a path where water used to flow from the mountains to the ocean.\nTo the West, you see a long stretch of desert.",
@@ -183,7 +210,7 @@
         "exits": [
           {
             "verb": "NORTH",
-            "target": "Front yard",
+            "target": "Front Yard",
             "condition": ""
           },
           {
