@@ -42,6 +42,175 @@
       }
     ],
     "rooms": {
+      "Beach": {
+        "name": "Beach",
+        "desc": "You come down the hills of sand onto a beach that stretches North for miles.  You even think you can see a settlement farther down the shore.  Even though you can tell it has receded, the ocean still glitters far out to the East where it meets the horizon.\nTo the South, there is a path where water used to flow from the mountains to the ocean.\nTo the West, you see a long stretch of desert.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Beach 2",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Ocean",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Dried Up River",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Vast Desert 2",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Dried Up River": {
+        "name": "Dried Up River",
+        "desc": "You come upon the dusty remains of a dried up river.\nIt looks like it used to run deep, but now there is nothing left except the path it created.\n\nLooking up the trail to the East, you see that the moutains are becoming very close.\nTo the North, you see the sunlight reflecting off of something broad and blue.\nTo the South, there is a small plot of sand nestled against the mountains.\nTo the West, there is nothing but desert.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Beach",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "N Mountain Base",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Sand Traps",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Vast Desert",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Vast Desert 2": {
+        "name": "Vast Desert 2",
+        "desc": "You travel through the desert for what feels like two or three hours.\nTo the North, you see a blue flag flying just above the horizon, but you cannot see over the sand hills to tell what it is flying from.\nTo the West, you see a worn down path.\nTo the East, you think you can see something glittering far in the distance.\nTo the South, you see nothing but desert.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Watchtower",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Beach",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Vast Desert",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Ghost Town",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Vast Desert": {
+        "name": "Vast Desert",
+        "desc": "You continue North into the desert.\n Strangely enough, even though you are only wearing a t-shirt and shorts, you don't feel the sunlight burning your skin.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Vast Desert 2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Front yard",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Dried Up River",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Dead Forest 2",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Front Yard": {
+        "name": "Front yard",
+        "desc": "You leave the house and finally find yourself outside.  The house you were just in is covered by drifts of sand, but it seems to have been cleared off before.\n To the West, you see nothing but desert and some scattered dead trees.\n  To the North, the desert continues to stretch, reflecting the heat of the sun back at itself.\n  To the East, you see a small desert laid out before a huge stretch of mountains.  Due to the heat, the mountain tops are bare and hold no snow.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Vast Desert",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Living Room",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Vast desert 3",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Sand Traps",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Living Room": {
+        "name": "Living Room",
+        "desc": "Exiting the hallway, you find yourself in a huge room.\n  This room seems like it used to be a lavish living room, but now, it looks like more a of a makeshift command center.\n There are papers strewn and hung everywhere, all with crazy diagrams and charts that seem to have something to do with the Sun.\n\n Looking around, you find a paper on a counter that says 'Hello.  If you are reading this, we need your help.  Meet us to the North at the watchtower.'\n\n You look for for an exit and see the door you came in to the south, and what looks like the front door to the North.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Front yard",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Long Hallway",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Long Hallway": {
+        "name": "Long Hallway",
+        "desc": "You move forward into the hallway.  Walking through it, nothing catches your eye.  However, there is another door at the end of the hallway.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Living Room",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Strange Room",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },     
       "START": {
         "name": "Starting place",
         "desc": "This is the place to start! \nInput any direction to begin.",
@@ -71,8 +240,28 @@
       },
       "Strange Room": {
         "name": "Strange Room",
-        "desc": "You find yourself in an unfamiliar room. \nTo your North, there is an open door leading out into a long hallway.",
+        "desc": "You find yourself in an unfamiliar room. \nTo your North, there is an open door leading out into a long hallway.  \nOn the wall East of you, there is an open window.  You feel a hot breeze flowing through it, and you are able to see a vast desert with mountains in the distance.  \nOn the Western side of the room, there is an unkempt bed and a bare nightstand. \nIn the Southern portion of the room, there is only a small, tattered poster, an over-head shot of several birds flying over a grassland with the caption 'Welcome Home.'",
         "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Long Hallway",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Strange Room",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Strange Room",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Strange Room",
+            "condition": ""
+          }
         ],
         "inventory": []
       }
