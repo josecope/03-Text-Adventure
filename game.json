@@ -42,6 +42,148 @@
       }
     ],
     "rooms": {
+      "Vast Desert 3": {
+        "name": "Vast Desert 3",
+        "desc": "You are still in the desert, but there is more dead plants and trees around you than there was before.\nTo the North and West, there is the remains of a forest which has now been burnt and lies dead.\nTo the South, there is a cliff overlooking a small lake.\nTo the East, you can see the strange house that you woke up in.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Dead Forest 2",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Front Yard",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "East Cliff",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Dead Forest",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Mountain Base": {
+        "name": "Mountain Base",
+        "desc": "You stand at the base of the mountains.  There is a small lantern farther East that illuminates a trail leading up into the mountains.\nTo the North, there is another lantern.\nTo the West, there is a small plot of sand with a danger sign.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "N Mountain Base",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Sand Traps",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Mountain Path",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "East Dead Forest": {
+        "name": "East Dead Forest",
+        "desc": "Coming out of the desert, you come upon a large forest of dead trees.  They seem to have died a few years ago from the excessive heat.\nThe forest continues into the West, where there seems to be a large opening in the trees.\nTo the South, you see nothing but desert.\nTo the north, you see a few buildings far in the distance.\nTo the East, there is nothing in sight but sand.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Ghost Town",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Vast Desert",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Vast desert 3",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Dead Forest Grove",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Ocean": {
+        "name": "Ocean",
+        "desc": "You decided to take a dip in the ocean.  The water is warm to the point where it's not very refreshing at all, but you still enjoy your time.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Ocean 2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "N Mountain Base",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Beach",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Tower Inside": {
+        "name": "Tower Inside",
+        "desc": "Entering the tower, you are surprised how empty it is.\nIn front of you in the northern section of the room, there is a set of stairs leading down into a dark, manmade tunnel.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Tunnel",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Watchtower",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Watchtower": {
+        "name": "Watchtower",
+        "desc": "There is a huge tower made of steel standing before you,  It looks like something from medieval times, but is well-crafted nonetheless, and there is a large blue flag flying at the very top.\nTo the East, you can see the beach, and beyond it, the ocean.\nTo the South, you see nothing but desert.\nTo the West, there is a patch of barren rock that almost seems to dissapear at a certain point. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Tower Inside",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Beach 2",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Vast Desert 2",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "N Cliff",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
       "N Mountain Base": {
         "name": "North Mountain Base",
         "desc": "Before you lies a group of colossal mountains that reach far into the sky.\nLooking to the East toward the mountains, you see a lit lantern resting on a small pedastal before a set of stairs that winds up into the rocks.\nTo the North, just past the end of the mountains, you can see the Ocean.\nTo the South, you can see another lantern.\nLastly, there is a large dusty trail leading out of the mountains and to the West.",
