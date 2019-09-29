@@ -1,0 +1,43 @@
+Name: Deja Pierce
+Date: 09/26/19
+Project: Text Adventure 
+Peer's repository: Joey Copeland
+
+
+
+What is something you learned by reviewing your peer's project?
+
+Something that I learned by reviewing my peer’s project is how to get the json code to work. For my project I couldn’t get the code to work, but it worked really well for Joey. It seems like it didn’t work for me, because my coding wasn’t lined up and the names for the rooms didn’t match up which could have caused it to not work. 
+
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+Something that I would saw that I would like to apply to my project is how Joey added many different rooms and each room was different from the others. Also, his rooms was very descriptive which I should have done for my project.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+
+There are no suggestions I believe that Joey did an amazing job with his project and did more than what was expected. 
+
+What could have been clearer or better commented?
+There wasn’t anything that needed to be better commented.
+
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+
+There wasn’t anything confusing about the code.
+
+Does the repository contain an appropriate LICENSE?
+
+ Yes it contains the appropriate license.
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+To make it more descriptive Joey could add how the player can go about playing the game. For example the player can type in these directions so the players know what to do when they start up the game.
+
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+Joey your work on this project was amazing. I found the story to be interesting and there was a lot of rooms go through which made the story even more better. 
